@@ -22,19 +22,6 @@ input[0:0] open ,input[0:0] mode
     end
     
     
-    always @(posedge open or  mode)
-    begin
-    if(open)
-    begin
-    if(mode)
-    begin
-    //查询模式
-    end
-    else
-    begin
+    //实例化模式
     
-    //监管者模式
-    end
-    end
-    end
 endmodule
